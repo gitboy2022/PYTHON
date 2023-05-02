@@ -1,0 +1,15 @@
+class Cat:
+  number_of_cats = 0
+  category = "feline"
+  def __init__(self, name, age, color, breed, weight, fur_length, is_hungry):
+    self.name = name
+    self.age = age
+    self.color = color
+    self.breed = breed
+    self.weight = weight
+    self.fur_length = fur_length
+    self.is_hungry = is_hungry
+    Cat.number_of_cats += 1
+
+cat1 = Cat("Mittens", 3, "white", "tabby", 4.5, "short", True)
+
