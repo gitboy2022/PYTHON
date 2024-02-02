@@ -5,9 +5,26 @@ title: FAQs
 
 I am excellent at Python, so I skipped 2 and 3.&nbsp;
 
-### Why does the document feel incomplete?&nbsp;
+### How do you say "Hello, World! " in Python?&nbsp;
 
-It's because the document is indeed incomplete.&nbsp;
+<SwmSnippet path="/LV1/other/helloworld.py" line="1">
+
+---
+
+Here you go.&nbsp;
+
+```python
+print("Hello, World! ")
+
+```
+
+---
+
+</SwmSnippet>
+
+### Where is the tutorial?&nbsp;
+
+<https://docs.python.org/3/>
 
 &nbsp;
 
