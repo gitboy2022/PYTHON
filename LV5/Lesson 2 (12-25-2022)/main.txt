@@ -1,0 +1,11 @@
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+
+car1 = Car("Ford", "F150", "2015")
+car2 = Car("Toyota", "Prius", "2016")
+car3 = Car("Honda", "Civic", "2017")
+car4 = Car("Nissan", "Altima", "2018")

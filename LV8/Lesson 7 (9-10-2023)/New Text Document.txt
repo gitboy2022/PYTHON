@@ -1,0 +1,5 @@
+Merging two sorted linked lists means combining two linked lists that are already sorted in ascending or descending order, 
+into a single linked list that is also sorted in the same order. 
+The process involves comparing the first nodes of the two lists and selecting the smaller one to be the first node of the merged list. 
+This process continues until all the nodes from both lists have been added to the merged list. The resulting list is a combination of the two input lists, 
+sorted in the desired order. 

@@ -1,0 +1,4 @@
+1. lambda
+2. recursion
+3. D
+

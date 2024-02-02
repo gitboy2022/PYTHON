@@ -1,0 +1,30 @@
+class TodoList
+  def __init__(self)
+    self.items = []
+
+  def add_item(self, item)
+    self.items.append(item)
+  
+  def remove_item(self, item)
+    self.items.remove(item)
+  
+  def get_items(self)
+    return self.items
+  
+  def get_item_by_name(self, name)
+    for item in self.items
+      if item.name == name
+    return item
+  
+  def get_item_by_index(self, index)
+    return self.items[index]
+
+todolist1 = TodoList()
+todolist1.add_item(buy milk)
+todolist1.add_item(buy eggs)
+todolist1.add_item(buy bread)
+todolist1.add_item(buy milk)
+todolist1.remove_item(buy milk)
+print(todolist1.get_items())
+print(todolist1.get_item_by_name(buy eggs))
+print(todolist1.get_item_by_index(1))
