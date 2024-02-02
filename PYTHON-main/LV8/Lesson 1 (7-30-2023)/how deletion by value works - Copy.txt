@@ -1,9 +1,0 @@
-How Does Deletion By Value Work?
-
-That Is How Deletion By Value Work:
-So let's say you want to remove these two nodes from a singly linked list.
-C
-D
-Those are also the values of the nodes.
-You can use deletion by value.
-So you delete the nodes you want to delete by their values.
