@@ -1,5 +1,5 @@
 ---
-title: Helpful Links
+title: Helpful Links For USACO
 ---
 [USACO General](https://usaco.guide/general/)
 
