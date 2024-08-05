@@ -12,6 +12,7 @@ def check_moo(s):
   for i in range(len(s)):
     if s[i:i + 3] == "OOM":
       return len(s) - 1
+  return -1
     
 
 for i in range(N):
