@@ -33,7 +33,7 @@
 ###COPY / PASTE Final Value of Variable After Performing Operations
 
 class Solution:
-    def finalValueAfterOperations(self, operations: List[str]) -> int:
+    def finalValueAfterOperations(self, operations: List[str]) -> int: # type: ignore
         x = 0
         for o in operations:
             if o == "X++":
@@ -58,7 +58,7 @@ class Solution:
 ###COPY / PASTE Count Common Words With One Occurrence
 
 class Solution:
-    def countWords(self, words1: List[str], words2: List[str]) -> int:
+    def countWords(self, words1: List[str], words2: List[str]) -> int: # type: ignore
         count = 0
         for w in words1:
             if words1.count(w) == 1 and words2.count(w) == 1:
